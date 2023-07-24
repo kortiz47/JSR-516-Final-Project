@@ -2,14 +2,16 @@
   "name": "jsr-516-final-project",
   "version": "1.0.0",
   "description": "[1] Get the look of the website setup [2] Create and layout the HTML - think about accessibility, about the buttons you want, the forms that you will disply [3] pick out the theme you want and creat a look and feel for the website [4]find a color palette for the website [5] find a font for the website",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "express": "^4.18.2",
     "morgan": "^1.10.0"
   }
 }
