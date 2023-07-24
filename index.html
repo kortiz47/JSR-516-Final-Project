@@ -11,7 +11,7 @@
     <header>
         <nav aria-label="Main Navigation Bar" role="navigation">
             <ul class="main-nav-bar">
-                <li class="projects-page">PROJECTS</li>
+                <li class="projects-page"><a href="">PROJECTS</a></li>
                 <li class="about-us-page">ABOUT US</li>
                 <li class="home-page">A&E HANDYMAN</li>
                 <li class="services-page">SERVICES</li>
@@ -30,20 +30,31 @@
         </div>
     <!-- horizontal media scroller below -->
         <div class="horizontal-media-scroller">
-            <div class="media-element">
-                <img class="home-images" src="images/homePageImage1.jpg">
+            <!-- radio buttons start -->
+            <div class="radio-buttons">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
             </div>
-            <div class="media-element">
-                <img class="home-images" src="images/homePageImage2.jpeg">
-            </div>
-            <div class="media-element">
-                <img class="home-images" src="images/homePageImage3.jpeg">
-            </div>
-            <div class="media-element">
-                <img class="home-images" src="images/homePageImage4.png">
-            </div>
-            <div class="media-element">
-                <img class="home-images" src="images/homePageImage5.jpeg">
+            <!-- radio buttons end -->
+            <div id="images-for-media-scroller">
+                <div class="media-element">
+                    <img class="home-images" alt="" src="images/homePageImage1.jpg">
+                </div>
+                <div class="media-element">
+                    <img class="home-images" alt="" src="images/homePageImage2.jpeg">
+                </div>
+                <div class="media-element">
+                    <img class="home-images" alt="" src="images/homePageImage3.jpeg">
+                </div>
+                <div class="media-element">
+                    <img class="home-images" alt="" src="images/homePageImage4.png">
+                </div>
+                <div class="media-element">
+                    <img class="home-images" alt="" src="images/homePageImage5.jpeg">
+                </div>
             </div>
         </div>
     </section>
@@ -57,7 +68,38 @@
     </section>
     <!-- this section will layout the various handyman and construction services we offer and free pricing? -->
     <section id="services">
-
+        <article>
+            <div>
+                <h1>LANDSCAPING</h1>
+                <img src="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, maiores dicta quam facilis nam sed? Sint temporibus, architecto omnis vitae dolore, reiciendis pariatur culpa esse eligendi et placeat ab porro!</p>
+            </div>
+            <div>
+                <h1>PLUMBING</h1>
+                <img src="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, maiores dicta quam facilis nam sed? Sint temporibus, architecto omnis vitae dolore, reiciendis pariatur culpa esse eligendi et placeat ab porro!</p>
+            </div>
+            <div>
+                <h1>ELECTRICITY</h1>
+                <img src="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, maiores dicta quam facilis nam sed? Sint temporibus, architecto omnis vitae dolore, reiciendis pariatur culpa esse eligendi et placeat ab porro!</p>
+            </div>
+            <div>
+                <h1>PAINTING</h1>
+                <img src="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, maiores dicta quam facilis nam sed? Sint temporibus, architecto omnis vitae dolore, reiciendis pariatur culpa esse eligendi et placeat ab porro!</p>
+            </div>
+            <div>
+                <h1>BATHROOMS</h1>
+                <img src="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, maiores dicta quam facilis nam sed? Sint temporibus, architecto omnis vitae dolore, reiciendis pariatur culpa esse eligendi et placeat ab porro!</p>
+            </div>
+            <div>
+                <h1>KITCHENS</h1>
+                <img src="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, maiores dicta quam facilis nam sed? Sint temporibus, architecto omnis vitae dolore, reiciendis pariatur culpa esse eligendi et placeat ab porro!</p>
+            </div>
+        </article>
     </section>
     <!-- this section will just be lots of pictures of projects -->
     <section id="gallery">
@@ -65,7 +107,8 @@
     </section>
     <!-- this section will be a form to send in an inquiry for an estimate -->
     <section id="contact-us">
-        
+        <!-- use get method if you want to retrive data -->
+        <form method="post"></form>
     </section>
 </body>
 </html>

@@ -27,8 +27,9 @@ hr{
     height: 300px;
     border-radius: 15%;
 }
+.
 
-.horizontal-media-scroller{
+#images-for-media-scroller{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 15%;
